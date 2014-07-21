@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>Ejercicio de pseudo clases de enlaces</title>
+        <style type="text/css">
+            a {
+                margin: 1em 0;
+                float: left;
+                clear: left;
+                padding: 2px;
+                color: red;
+
+            }
+            a:hover{
+                text-decoration: none;
+                background-color: red;
+                color: white;
+            }
+            a:visited{
+                color: #CCC;
+            }
+            a.boton {
+                text-decoration: none;
+                background: #EEE;
+                color: #222;
+                border: 1px outset #CCC;
+                padding: .1em .5em;
+            }
+            a.boton:hover {
+                background: #CCB;
+            }
+            a.boton:active {
+                border: 1px inset #000;
+            }
+        </style>
+    </head>
+
+    <body>
+        <a href="#">Enlace n&uacute;mero 1</a>
+
+        <a href="#">Enlace n&uacute;mero 2</a>
+
+        <a href="#">Enlace n&uacute;mero 3</a>
+
+        <a href="#">Enlace n&uacute;mero 4</a>
+
+        <a href="#">Enlace n&uacute;mero 5</a>
+        
+        <a class="boton" href="#">Guardar</a>
+<a class="boton" href="#">Enviar</a>
+    </body>
+</html>
